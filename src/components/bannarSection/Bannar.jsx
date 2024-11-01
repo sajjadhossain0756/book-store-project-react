@@ -3,7 +3,7 @@ import bannarImage from '../../assets/books.jpg'
 
 const Bannar = () => {
   return (
-    <div className="hero h-[400px] bg-base-200 rounded-lg mt-4">
+    <div className="hero lg:h-[400px] bg-base-200 rounded-lg my-4">
   <div className="hero-content flex-col gap-32 lg:flex-row-reverse">
     <img
       src={bannarImage}
